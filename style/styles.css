@@ -10,7 +10,7 @@
   
   /* fira sans font end */
 
- /* nav-style */
+ /* nav-style start*/
  nav ul li{
   list-style: none;
  }
@@ -30,7 +30,7 @@
 }
  /* nav style end */
 
- /* banner-section */
+ /* banner-section start */
 .banner{
     display: flex;
     justify-content: space-between;
@@ -64,4 +64,160 @@
     font-weight: bold;
     font-size: 56px;
     color: #0E0E0E;
+}
+/* banner section end */
+
+/* features section start */
+.Vision-of-Future{
+    width: 1280px;
+    height: 784px;
+.Vision-of-Future-title{
+    text-align: justify;
+}
+
+.Vision-of-Future-description{
+    text-align: justify;
+}
+}
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1280px;
+    height: 325px;
+    text-align: center;
+    gap: 24px;
+    margin top: 32px;
+    
+   
+}
+.Digital-Transformation{
+    text-align: justify;
+    border: none;
+    padding: 32px;
+    width: 410.67px;
+    height: 250px;
+    background-color: #b2cdfb;
+    border-radius: 16px;
+    
+
+   
+}
+.Green-Energy{
+    text-align: justify;
+    border: none;
+    padding: 32px;
+    width: 410.67px;
+    height: 250px;
+    background-color: #a2f5d1;
+    border-radius: 18px;
+  
+
+}
+
+ 
+
+.Modern-Infrastructure{
+    text-align: justify;
+    border: none;
+    padding: 32px;
+    width: 410.67px;
+    height: 250px;
+    background-color: #eac97bc8;
+    border-radius: 18px;
+}
+.box-btn1{
+    color: #FFFFFF;
+    background-color: #5187e5;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+  
+}
+.box-btn2{
+    background-color: #09A15C;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+
+.box-btn3{
+    padding: 11px 20px;
+    border-radius: 8px;
+    background-color: #f4ba33;
+    color: #FFFFFF;
+    border: none;
+}
+    
+
+.Vision-of-Future{
+  max-width: 1280px;
+    max-height: 431px;
+  
+
+}
+
+main{
+    width: 1280px;
+ margin: 0px auto;
+ background-color: rgb(255, 255, 255);
+ text-align: justify;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.donate-section{
+    width: 1280px;
+    height: 484px;
+}
+.donate-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.donate-title{
+    text-align: center;
+}
+.donate-description{
+    text-align: center;
+}
+/* .btn1{ */
+    padding: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+
+.input-1{
+    text-align: center;
+}
+.input-2{
+    text-align: center;
+}
+.input-3{
+
+}
+.green-title{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size:20px;
+}
+.green-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.Modern-Infrastructure-title{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Modern-Infrastructure-description{
+    font-weight: 400;
+    font-size: 16px;
 }
