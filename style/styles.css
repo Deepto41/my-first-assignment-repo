@@ -173,26 +173,14 @@ main{
     margin: 0 auto;
 }
 
-.donate-section{
-    width: 1280px;
-    height: 484px;
-}
-.donate-btn{
-    display: flex;
-    justify-content: space-evenly;
-}
-.donate-title{
-    text-align: center;
-}
-.donate-description{
-    text-align: center;
-}
+
 .btn1{
     padding: 40px;
     font-weight: bold;
     font-size: 40px;
     border-radius: 16px;
     background-color: #FFFFFF;
+    border: none;
 }
 .input-1{
     text-align: center;
@@ -222,21 +210,26 @@ main{
     font-size: 16px;
 }
 
-.Dr.Yunus{
-    width: 1280px;
-    height: 256px;
-    background-image: url(".//assets/quote-bg.png");
+.Dr-Yunus{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: #FFFFFF;
+    padding: 24px 5px;
+    margin-bottom: 30px;
+
+
 }
 
 .content{
     display: flex;
-    width: 1280px;
-    height: 402px;
+    /* width: 1280px; */
+    /* height: 402px; */
     background-color: #fffdfd;
     border-radius: 8px;
     padding: 48px;
     gap: 30px;
-    margin-bottom: 18px;
+    /* margin-bottom: 18px; */
 }
 
 .Read-more{
@@ -246,12 +239,13 @@ main{
     border-radius: 8px;
     font-weight: 600;
     font-size: 18px;
+    border: none;
 
 }
     .content-2{
         display: flex;
-        width: 1280px;
-        height: 402px;
+        /* width: 1280px; */
+        /* height: 402px; */
         border-radius: 8px;
         padding: 48px;
         gap: 30px;
@@ -287,8 +281,68 @@ main{
     margin-bottom: 35px;
     margin-top: 50px;
     padding: 50px 0 32px 0;
-
 }
+
+.butn-i{
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 16px;
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 40px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.butn-ii{
+    padding: 20px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 40px;
+    border: none;
+    margin-bottom: 20px
+}
+.butn-iii{
+padding: 20px;
+background-color: #f0b4b4;
+border-radius: 16px;
+color: #0E0E0E;
+font-weight: bold;
+font-size: 40px;
+border: none;
+margin-bottom: 20px
+}
+
+.butn-iv{
+    padding: 20px;
+background-color: #c3c2c2;
+border-radius: 16px;
+color: #0E0E0E;
+font-weight: bold;
+font-size: 40px;
+border: none;
+margin-bottom: 20px
+}
+
+.donate-form{
+   text-align: center;
+   margin-bottom: 20px;
+  max-width: 1032px;
+   height:100px;
+   padding: 10px 120px;
+   background-color: #FFFFFF;
+}
+.form{
+    width: 100px;
+    height:50px;
+    background-color: #fff8f8;
+    border: 1px solid rgb(2, 1, 0)  ;
+    padding: 20px 440px;
+    margin-bottom: 20px;
+}
+
 footer{
     background-color: #ffffff;
     max width: 1600px;
@@ -298,3 +352,50 @@ footer{
 .footer-logo{
     padding-bottom: 35px;
 }
+.donate-title{
+    text-align: center;
+}
+.donate-description{
+    text-align: center;
+}
+.donate-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.input-sec{
+   text-align: center; 
+   justify-content: center;
+   margin-left: 200px;
+}
+.newsletter-section{
+    max-width: 1280px;
+    max-height: 100px;
+    border-radius: 24px;
+    /* border: 1px solid black; */
+    background-color: #C6E4D6;
+    text-align: center;
+    padding: 60px 200px 160px 220px;
+    margin: 50px 140px;
+
+}
+
+.subscription-input{
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+    background-color: #FFFFFF;
+    padding: 18px 40px;
+    border: none;
+   
+}
+.subscription-btn{
+    background-color: #006A50;
+    padding: 17px 34px;
+    color: #FFFFFF;
+    gap: none;
+    border: none;
+    border-radius: 10px;
+ 
+}
+
