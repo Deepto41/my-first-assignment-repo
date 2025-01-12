@@ -187,13 +187,13 @@ main{
 .donate-description{
     text-align: center;
 }
-/* .btn1{ */
+.btn1{
     padding: 40px;
     font-weight: bold;
     font-size: 40px;
     border-radius: 16px;
     background-color: #FFFFFF;
-
+}
 .input-1{
     text-align: center;
 }
@@ -220,4 +220,81 @@ main{
 .Modern-Infrastructure-description{
     font-weight: 400;
     font-size: 16px;
+}
+
+.Dr.Yunus{
+    width: 1280px;
+    height: 256px;
+    background-image: url(".//assets/quote-bg.png");
+}
+
+.content{
+    display: flex;
+    width: 1280px;
+    height: 402px;
+    background-color: #fffdfd;
+    border-radius: 8px;
+    padding: 48px;
+    gap: 30px;
+    margin-bottom: 18px;
+}
+
+.Read-more{
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 13px 26px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+    .content-2{
+        display: flex;
+        width: 1280px;
+        height: 402px;
+        border-radius: 8px;
+        padding: 48px;
+        gap: 30px;
+        background-color: #ffffff;
+        margin-bottom: 80px;
+    }
+
+.right{ 
+    gap: 32px;
+    text-align: justify;
+
+}
+.left-2 {
+    text-align: justify;
+    gap: 32px;
+}
+
+.sat-pic{
+    width: 408px ;
+    height: 306px;
+    border-radius: 24px;
+}
+
+/* footer style */
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 35px;
+}
+.header-title{
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    padding: 50px 0 32px 0;
+
+}
+footer{
+    background-color: #ffffff;
+    max width: 1600px;
+    max height: 226px;
+    
+}
+.footer-logo{
+    padding-bottom: 35px;
 }
