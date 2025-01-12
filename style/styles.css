@@ -326,6 +326,10 @@ border: none;
 margin-bottom: 20px
 }
 
+.donate-title{
+    font-weight: bold;
+    font-size: 40px;
+}
 .donate-form{
    text-align: center;
    margin-bottom: 20px;
@@ -390,12 +394,13 @@ footer{
    
 }
 .subscription-btn{
-    background-color: #006A50;
+    background-color: #afb2b1;
     padding: 17px 34px;
     color: #FFFFFF;
     gap: none;
     border: none;
     border-radius: 10px;
+
  
 }
 
